@@ -3,16 +3,73 @@
 <head>
   <meta charset="UTF-8">
   <title>AICT Cloud Assignment 2</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 800px;
+    }
+    h1 {
+      border-bottom: 3px solid black;
+      padding-bottom: 8px;
+    }
+    .block {
+      border: 2px solid black;
+      padding: 12px;
+      margin-bottom: 15px;
+    }
+    .results {
+      display: flex;
+      gap: 10px;
+    }
+    .result {
+      flex: 1;
+      border: 2px solid black;
+      background: #ffff99;
+      text-align: center;
+      padding: 15px 5px;
+    }
+    .result .label {
+      font-size: 14px;
+    }
+    .result .value {
+      font-size: 28px;
+      font-weight: bold;
+    }
+  </style>
 </head>
 <body>
   <h1>AICT Cloud Assignment 2: Average Sensor Readings</h1>
 
-  <p><strong>Group members:</strong> Abdul Rehman, Fawaz Hassan, Asad Ali, Muhammad Hassan, Abdullah Saleem</p>
+  <div class="block">
+    <strong>Group members:</strong> Abdul Rehman, Fawaz Hassan, Asad Ali, Muhammad Hassan Khan, Abdullah Saleem
+  </div>
 
-  <p>This project uses a short Python program to calculate the count, minimum, maximum and average of five sensor readings.</p>
+  <div class="block">
+    This project uses a short Python program to calculate the count, minimum, maximum and average of five sensor readings.
+  </div>
 
-  <p><strong>Readings:</strong> 22, 24, 26, 28, 30</p>
+  <div class="block">
+    <strong>Readings:</strong> 22, 24, 26, 28, 30
+  </div>
 
-  <p><strong>Average result: 26.0</strong></p>
+  <h2>Results</h2>
+  <div class="results">
+    <div class="result">
+      <div class="label">Count</div>
+      <div class="value">5</div>
+    </div>
+    <div class="result">
+      <div class="label">Minimum</div>
+      <div class="value">22</div>
+    </div>
+    <div class="result">
+      <div class="label">Maximum</div>
+      <div class="value">30</div>
+    </div>
+    <div class="result">
+      <div class="label">Average</div>
+      <div class="value">26.0</div>
+    </div>
+  </div>
 </body>
 </html>
